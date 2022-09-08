@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    android:background="@color/black"
+
+    android:layout_marginTop="10dp"
+    android:paddingTop="10dp"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="310dp"
+        android:layout_height="220dp"
+        app:strokeColor="#C6C2C2"
+        app:strokeWidth="1dp"
+        app:cardCornerRadius="20dp"
+
+        android:id="@+id/cardv"
+
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/reviewTxt"
+
+
+
+            android:textColor="#CDC7C7"
+            android:layout_width="290dp"
+            android:textSize="14sp"
+
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:text="name \n"
+            android:textAlignment="center"
+
+
+
+            />
+            <View
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#CDC7C7"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/revperImg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:strokeColor="#2598CC"
+            app:strokeWidth="1dp"
+            android:layout_marginTop="15dp"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+
+
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/changeshape" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+
+
+                <TextView
+                    android:id="@+id/revperName"
+                    android:textSize="13sp"
+                    android:textColor="#C8C2C2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="rate "
+                    android:textAlignment="center"
+
+
+
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/revperAdd"
+                    android:textSize="11sp"
+                    android:textColor="#979191"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="rate "
+                    android:textAlignment="center"
+
+
+
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

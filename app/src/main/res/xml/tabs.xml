@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        drawable="@drawable/ic_baseline_home_24"
+        text="@string/home"
+        />
+    <tab
+
+        drawable="@drawable/ic_baseline_chat_24"
+        text="@string/chat"/>
+    <tab
+
+        drawable="@drawable/ic_baseline_live_tv_24"
+        text="@string/live"/>
+    <tab
+
+        drawable="@drawable/ic_baseline_call_24"
+        text="@string/call"/>
+    <tab
+
+        drawable="@drawable/ic_baseline_insert_drive_file_24"
+        text="@string/history"/>
+</Tabs>

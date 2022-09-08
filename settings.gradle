@@ -1,0 +1,24 @@
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
+        maven { url 'https://www.jitpack.io'}
+        maven { url "https://chatsdk.jfrog.io/artifactory/release/chat-sdk-android" }
+        maven { url "https://chatsdk.jfrog.io/artifactory/release/chatkit" }
+        maven { url "https://chatsdk.jfrog.io/artifactory/release/matisse" }
+        maven { url "https://chatsdk.jfrog.io/artifactory/release/material-search-view" }
+        maven { url "https://chatsdk.jfrog.io/artifactory/release/android-image-cropper" }
+    flatDir{
+        dirs 'libs'
+    }
+    }
+}
+
+rootProject.name = "otp screen"
+include ':app'

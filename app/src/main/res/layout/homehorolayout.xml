@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    android:layout_marginTop="10dp"
+    android:paddingTop="10dp"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/Imagehoro"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        app:strokeColor="#2598CC"
+        app:strokeWidth="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/changeshape" />
+
+    <TextView
+        android:id="@+id/nameame"
+
+
+
+        android:textColor="#959292"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="name \n"
+        android:textAlignment="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="17dp"
+        />
+
+
+</LinearLayout>

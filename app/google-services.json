@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725843375539",
+    "firebase_url": "https://mantra-app-99b03-default-rtdb.firebaseio.com",
+    "project_id": "mantra-app-99b03",
+    "storage_bucket": "mantra-app-99b03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725843375539:android:1b2c87200aa3f904ef07c6",
+        "android_client_info": {
+          "package_name": "com.example.otpscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725843375539-n0dk4desrvmvk52assk19d0qp0ke4n74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_8j3YC_b0ew0f-8U4Ey9SUA2wuqqpdfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725843375539-n0dk4desrvmvk52assk19d0qp0ke4n74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

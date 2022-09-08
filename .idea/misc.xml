@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/drawable/bg_pro.xml" value="0.2045" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/drawable/bg_search.xml" value="0.2065" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1485" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.2065" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_astro_profile.xml" value="0.22" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_astrosignupskilldetails.xml" value="0.25" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_homepage.xml" value="0.19791666666666666" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_main_activity6_profile.xml" value="0.19791666666666666" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_mainhomescreen2.xml" value="0.25" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/activity_signupastrologers.xml" value="0.19895833333333332" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/fragment_history.xml" value="0.3055555555555556" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/fragment_live.xml" value="0.38333333333333336" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/homehorolayout.xml" value="0.3859375" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/layout/testff.xml" value="0.25" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/menu/menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/New folder/otpscreen-master/app/src/main/res/menu/nav_menu.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/drawable/white_rounded_bg.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main2.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main7.xml" value="0.25" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity2_number.xml" value="0.264" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity3_otp.xml" value="0.264" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity4_home.xml" value="0.264" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity5_videocall.xml" value="0.264" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity6_profile.xml" value="0.25" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_activity7_payment.xml" value="0.25" />
+        <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_backup.xml" value="0.264" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_button.xml" value="0.208" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_pro.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_search.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_lock_reset_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/white_rounded_bg.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astro_profile.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astrosignupskilldetails.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_chatactivity.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_dailyhoroscope.xml" value="0.18" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_historyactivity.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_homeblog.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main7.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main_activity3_otp.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_mainhomescreen2.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_send_review_test.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_sendblog_test.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_signupastrologers.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/bloglayout.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/clietnreviewlayout.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_call.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_chat.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_first.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_history.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_live.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_today_rashi.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_tommorow_rashi.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_yesterday_rashi.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/homeastrolayout.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/homehorolayout.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/rashihoroscopelayout.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/menu/nav_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/xml/tabs.xml" value="0.14" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/bg_search.xml" value="0.247" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2865" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2865" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2865" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.2865" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.2865" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.247" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main2.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main7.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_activity2_number.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_activity3_otp.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_activity4_home.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_activity5_videocall.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_activity6_profile.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_main_backup.xml" value="0.2015625" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/activity_nav_header.xml" value="0.38697916666666665" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/fragment_bottom.xml" value="0.25" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/fragment_call.xml" value="0.2864321608040201" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/fragment_chat.xml" value="0.38697916666666665" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/fragment_history.xml" value="0.38697916666666665" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/layout/fragment_live.xml" value="0.38697916666666665" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/otpscreen-master/app/src/main/res/menu/nav_menu.xml" value="0.2015625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

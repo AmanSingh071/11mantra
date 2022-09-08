@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".activities.AstroProfileActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/card"
+        android:backgroundTint="#1A1A1B"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#8A8686"
+        app:strokeWidth="1dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/li"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/astroproimg"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_2"
+                    app:shapeAppearance="@style/changeshape" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintLeft_toRightOf="@id/li"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/astroprousername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/astroproprofes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profession"
+                    android:textColor="#AEABAB"
+
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/astroprolang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Languages"
+                    android:textColor="#AEABAB"
+
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/astroproexperience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Experirnce"
+                    android:textColor="#AEABAB"
+
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate"
+                    android:textColor="#AEABAB"
+
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+            <TextView
+                android:id="@+id/chatrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat Rate"
+                android:textColor="#AEABAB"
+                android:padding="15dp"
+
+                android:drawableStart="@drawable/ic_baseline_chat_24"
+
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/callrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Call Rate"
+                android:textColor="#AEABAB"
+                android:drawableStart="@drawable/ic_baseline_call_24"
+                android:padding="15dp"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/videorate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video Rate"
+                android:drawableStart="@drawable/ic_baseline_videocam_24"
+                android:layout_marginLeft="40dp"
+
+                android:textColor="#AEABAB"
+                android:padding="15dp"
+                android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginTop="10dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/card"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:layout_marginLeft="10dp"
+            app:trimLength="20"
+
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="About Section"
+            />
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

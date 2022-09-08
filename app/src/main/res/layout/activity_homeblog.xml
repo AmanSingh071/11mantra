@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.homeblogActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogTitle"
+            android:text="blog title"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="400dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="150dp"
+            android:id="@+id/blogImg"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/imgrad3"
+
+            />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogTxt"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="blog txt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogDate"
+            android:text="blog title"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogAuthor2"
+            android:text="blog title"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+
+            />
+    </LinearLayout>
+
+
+</ScrollView>
