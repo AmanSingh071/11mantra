@@ -6,6 +6,7 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -123,24 +124,14 @@ public class signupastrologers extends AppCompatActivity {
         String about1= about.getText().toString();
 
 
-        auth.createUserWithEmailAndPassword(email1, pass1).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful())
-                {
-                    Toast.makeText(signupastrologers.this,"success",Toast.LENGTH_LONG).show();
+
+
                     storeuserdata(email1,pass1, userName1,lang1,prof1, exp1,rate1,chatrate1,callrate1,videorate1,about1);
+                    Intent intent=new Intent(signupastrologers.this,homepageActivity.class);
+                    startActivity(intent);
+                    Toast.makeText(signupastrologers.this,"please log in again",Toast.LENGTH_LONG).show();
 
 
-
-                }
-                else
-                {
-                    Toast.makeText(signupastrologers.this,"failed",Toast.LENGTH_LONG).show();
-                }
-
-            }
-        });
 
 
 
@@ -165,23 +156,15 @@ public class signupastrologers extends AppCompatActivity {
         Signupdetailsmodelsastrologers.setCallPrice(callrate1);
         Signupdetailsmodelsastrologers.setVideoPrice(videorate1);
         Signupdetailsmodelsastrologers.setAbout(about1);
+        Signupdetailsmodelsastrologers.setAuthid(FirebaseAuth.getInstance().getCurrentUser().getUid());
 
 
 
 
-        databaseReference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 databaseReference.setValue(Signupdetailsmodelsastrologers);
 
-            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
     }
 
 

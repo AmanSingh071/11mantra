@@ -67,6 +67,7 @@ public class AstroAdapter extends RecyclerView.Adapter<AstroAdapter.MyViewHolder
         intent.putExtra("index",pos);
         intent.putExtra("class",ref);
         ContextCompat.startActivity(context,intent,null);
+
     }
 
     @Override

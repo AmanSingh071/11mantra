@@ -7,6 +7,7 @@
     android:padding="5dp"
     android:gravity="center"
     android:background="@color/black"
+    android:backgroundTint="@color/black"
 
     android:layout_marginTop="10dp"
     android:paddingTop="10dp"
@@ -18,8 +19,8 @@
         android:layout_height="194dp"
         app:cardCornerRadius="10dp"
         android:id="@+id/cardv"
-
-
+        android:background="@color/black"
+      android:backgroundTint="#1F2020"
         >
 
 
@@ -30,7 +31,7 @@
         app:strokeColor="#2598CC"
         app:strokeWidth="1dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img"
+        android:src="@drawable/imgg"
         android:layout_marginLeft="25dp"
 
         android:layout_marginTop="10dp"

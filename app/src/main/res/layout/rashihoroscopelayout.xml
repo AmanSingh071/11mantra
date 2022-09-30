@@ -20,7 +20,7 @@
         app:strokeColor="#2598CC"
         app:strokeWidth="1dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img"
+        android:src="@drawable/imgg"
         android:layout_marginLeft="10dp"
 
         android:layout_marginTop="10dp"

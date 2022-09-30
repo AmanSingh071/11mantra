@@ -3,7 +3,7 @@ package com.example.otpscreen.models;
 
 public class users {
     private String uId, name, number;
-    private long coins;
+
 
     public users(String uid, String name, String number, int i) {
 
@@ -14,7 +14,7 @@ public class users {
         this.name = name;
         this.number=number;
 
-        this.coins = coins;
+
     }
 
     public String getuId() {
@@ -43,11 +43,5 @@ public class users {
 
 
 
-    public long getCoins() {
-        return coins;
-    }
 
-    public void setCoins(long coins) {
-        this.coins = coins;
-    }
 }

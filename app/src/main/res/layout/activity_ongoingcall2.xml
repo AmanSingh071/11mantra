@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272626"
+    tools:context=".activities.outgoingcall">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Outgoing Chat request from"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Astrotalk"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/outgoingimgcall"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#2598CC"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image"
+            app:shapeAppearance="@style/changeshape" />
+        <TextView
+            android:id="@+id/callernameout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="name"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+
+            />
+
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+
+
+            android:layout_marginTop="180dp"
+            android:text="End Chat"
+            android:layout_gravity="center"
+            android:id="@+id/disbtn"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E74C3C"
+            android:background="@drawable/coombox"
+            android:textSize="23sp"
+            android:drawableStart="@drawable/endchatbtn"
+            >
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

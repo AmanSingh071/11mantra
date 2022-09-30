@@ -177,6 +177,22 @@ public class mainhomescreenfrag extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.frag,fragment).commit();
             }
         });
+        v.findViewById(R.id.chathomebtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment fragment = new chatFragment();
+                FragmentManager fragmentManager=((FragmentActivity) getContext()).getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.frag,fragment).commit();
+            }
+        });
+        v.findViewById(R.id.callhomebtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment fragment = new callFragment();
+                FragmentManager fragmentManager=((FragmentActivity) getContext()).getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.frag,fragment).commit();
+            }
+        });
 
 
 

@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/cussupChat"
+
+
+        android:icon="@drawable/ic_baseline_headset_mic_24"
+        android:iconTint="@color/white"
+
+        android:title="Customer Support Chat" />
+    <item
+        android:id="@+id/walletTrans"
+        android:icon="@drawable/ic_baseline_wallet_24"
+        android:iconTint="@color/white"
+
+        android:title="Wallet Transaction" />
+    <item
+        android:id="@+id/orderHis"
+        android:icon="@drawable/ic_baseline_history_24"
+
+        android:title="Order History" />
+    <item
+        android:id="@+id/astromall"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+
+        android:title="Astromail" />
+    <item
+        android:id="@+id/getreport"
+        android:icon="@drawable/ic_baseline_content_paste_24"
+
+        android:title="Get Report" />
+    <item
+        android:id="@+id/chatAstro"
+        android:icon="@drawable/ic_baseline_lightbulb_24"
+
+        android:title="Chat with Astrologers" />
+    <item
+        android:id="@+id/chatCouns"
+        android:icon="@drawable/ic_baseline_interpreter_mode_24"
+
+        android:title="Chat with Counsellors" />
+    <item
+        android:id="@+id/myfollow"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+
+        android:title="My Following" />
 
     <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+
+        android:title="Settings" />
+    <item
         android:id="@+id/home3"
-        android:icon="@drawable/ic_baseline_home_24"
+        android:icon="@drawable/ic_baseline_settings_24"
 
         android:title="Home" />
     <item
@@ -22,6 +71,13 @@
         android:icon="@drawable/ic_baseline_supervised_user_circle_24"
 
         android:title="sendReview(test)" />
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+
+        android:title="Sign Out" />
+
+
 
 <!--    <item-->
 <!--        android:id="@+id/posts"-->

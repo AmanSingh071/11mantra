@@ -33,37 +33,69 @@
         <entry key="..\:/Users/jayan/Desktop/android/otpscreen/app/src/main/res/layout/activity_main_backup.xml" value="0.264" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_button.xml" value="0.208" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_gradient.xml" value="0.2195" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_pro.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/bg_search.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/chatbg.xml" value="0.2195" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/chatwithastrobg.xml" value="0.2195" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/coombox.xml" value="0.2195" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/edittextback.xml" value="0.2195" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_lock_reset_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_person_add_alt_1_24.xml" value="0.232" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.2195" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.247" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.247" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/messbox.xml" value="0.2195" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/text_bound.xml" value="0.208" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/drawable/txtbg.xml" value="0.232" />
         <entry key="..\:/mantra-app-master/app/src/main/res/drawable/white_rounded_bg.xml" value="0.247" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astro_profile.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astro_number_sign_up.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astro_profile.xml" value="0.22" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_astrosignupskilldetails.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_callactivity.xml" value="0.2015625" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_chat.xml" value="0.5" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_chatactivity.xml" value="0.38697916666666665" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_dailyhoroscope.xml" value="0.18" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_chatcall_incoming.xml" value="0.18" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_chatcall_out_going.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_dailyhoroscope.xml" value="0.14" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_following.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_historyactivity.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_homeblog.xml" value="0.22" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_incomingcall.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_login_astro.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main7.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main_activity2_number.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main_activity3_otp.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main_activity6_profile.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_main_backup.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_mainhomescreen2.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_nav_header.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_ongoingcall.xml" value="0.19635416666666666" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_ongoingcall2.xml" value="0.18" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_profile.xml" value="0.26851851851851855" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_send_review_test.xml" value="0.25" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_sendblog_test.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_signupastro_otp.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_signupastrologers.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/activity_todayactivity.xml" value="0.22" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/bloglayout.xml" value="0.25" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/calllayout.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/chatlayout.xml" value="0.25" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/clietnreviewlayout.xml" value="0.22" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_call.xml" value="0.38697916666666665" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_chat.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/followlayout.xml" value="0.38" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_call.xml" value="0.22" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_dailyhoroscopefragement.xml" value="0.2015625" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_first.xml" value="0.38697916666666665" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_history.xml" value="0.38697916666666665" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_history.xml" value="0.1" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_live.xml" value="0.38697916666666665" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_today_rashi.xml" value="0.22" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/fragment_tommorow_rashi.xml" value="0.38697916666666665" />
@@ -71,8 +103,11 @@
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/homeastrolayout.xml" value="0.33" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/homehorolayout.xml" value="0.33" />
         <entry key="..\:/mantra-app-master/app/src/main/res/layout/rashihoroscopelayout.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/receivemessagelayout.xml" value="0.18" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/sentmessagelayout.xml" value="0.31666666666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/layout/testactivity.xml" value="0.1953125" />
         <entry key="..\:/mantra-app-master/app/src/main/res/menu/menu.xml" value="0.25" />
-        <entry key="..\:/mantra-app-master/app/src/main/res/menu/nav_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/mantra-app-master/app/src/main/res/menu/nav_menu.xml" value="0.32673267326732675" />
         <entry key="..\:/mantra-app-master/app/src/main/res/xml/tabs.xml" value="0.14" />
         <entry key="..\:/otpscreen-master/app/src/main/res/drawable/bg_search.xml" value="0.247" />
         <entry key="..\:/otpscreen-master/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2865" />

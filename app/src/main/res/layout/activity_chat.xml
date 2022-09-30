@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+     android:layout_height="match_parent"
+    tools:context=".activities.chatActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="#7152c9"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/backbtn2"
+
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:id="@+id/backbtn"
+
+                android:layout_marginLeft="10dp"
+
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/chatuserimg"
+               android:layout_marginLeft="10dp"
+
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lockcon"
+                app:shapeAppearance="@style/changeshape"
+
+
+
+                />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAlignment="center"
+            android:id="@+id/chatusername"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:id="@+id/info"
+                android:layout_marginLeft="200dp"
+                />
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7152c9"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            app:cardCornerRadius="30dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="643dp"
+
+                android:layout_marginTop="12dp">
+
+
+                <LinearLayout
+                    android:id="@+id/li"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/chatrecyv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp" />
+                </LinearLayout>
+
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="420dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#eaeeef"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/messbox"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextback"
+                    android:hint="Enter your Mesaage"
+                    android:paddingLeft="27dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/sendbtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    android:backgroundTint="#242829"
+                    android:src="@drawable/bbtnn" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

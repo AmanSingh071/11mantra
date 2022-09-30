@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@color/black"
 
     tools:context=".activities.AstroProfileActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+
+        android:background="@color/black"
         android:layout_height="match_parent"
         >
 
@@ -55,7 +57,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/img_2"
+                    android:src="@drawable/lockcon"
                     app:shapeAppearance="@style/changeshape" />
             </LinearLayout>
 
@@ -161,8 +163,12 @@
         android:layout_marginTop="10dp"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
+        android:id="@+id/cardd"
+
 
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
 
         app:layout_constraintTop_toBottomOf="@id/card"
         app:layout_constraintStart_toStartOf="parent">
@@ -170,8 +176,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/about"
+            android:textColor="#676464"
             android:layout_marginLeft="10dp"
             app:trimLength="20"
+            android:textSize="19sp"
+
 
 
 
@@ -183,6 +192,93 @@
 
 
 
+
     </com.google.android.material.card.MaterialCardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="5dp"
+
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#1A1A1B"
+            app:layout_constraintStart_toStartOf="parent"
+
+
+            app:layout_constraintTop_toBottomOf="@id/cardd">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_person_add_alt_1_24"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Follow Name"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="Follow Name to get notifies when they go live, \n come online or run and offer!"
+                    />
+
+                    <TextView
+                        android:id="@+id/followastro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+
+
+                        android:layout_marginLeft="9dp"
+                        android:background="@drawable/txtbg"
+
+                        android:backgroundTint="#7A4E0C"
+
+
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Follow"
+                        android:textColor="#FFFFFF"
+
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

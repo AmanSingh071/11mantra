@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#272626"
+    tools:context=".activities.chatcallIncoming">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Incoming Chat request from"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Astrotalk"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/incomimgchat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#2598CC"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image"
+            app:shapeAppearance="@style/changeshape" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/appimgb"
+                />
+        <TextView
+            android:id="@+id/callername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="name"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+
+
+            android:layout_marginTop="150dp"
+            android:text="Start Chat"
+            android:layout_gravity="center"
+            android:id="@+id/pickupcall"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2ECC71"
+            android:background="@drawable/coombox"
+            android:textSize="23sp"
+            android:drawableStart="@drawable/coommboxx"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/discall"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Reject Call Request"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"
+            android:textColor="@color/red"
+
+            android:src="@drawable/call"
+
+
+
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

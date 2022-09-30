@@ -2,6 +2,7 @@ package com.example.otpscreen.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -34,6 +35,7 @@ public class MainActivity5_videocall extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity5_videocall.this,homepageActivity.class);
                 startActivity(intent);
+
             }
         });
         try{

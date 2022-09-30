@@ -51,7 +51,7 @@ FirebaseDatabase database;
                    @Override
                    public void onSuccess(Void unused) {
                        Toast.makeText(MainActivity6_Profile.this, "Registered successful ", Toast.LENGTH_SHORT).show();
-                       Intent intent= new Intent(MainActivity6_Profile.this,MainActivity_backup.class);
+                       Intent intent= new Intent(MainActivity6_Profile.this,homepageActivity.class);
                        intent.putExtra("phone",phone);
 
                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

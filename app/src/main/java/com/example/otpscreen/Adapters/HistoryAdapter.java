@@ -8,10 +8,10 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
-public class rashiTodayTomYesAdapter extends FragmentPagerAdapter {
+public class HistoryAdapter extends FragmentPagerAdapter {
     private final ArrayList<Fragment> fragmentArrayList=new ArrayList<>();
     private final ArrayList<String > fragmentTitle=new ArrayList<>();
-    public rashiTodayTomYesAdapter(@NonNull FragmentManager fm, int behavior) {
+    public HistoryAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
     }
 

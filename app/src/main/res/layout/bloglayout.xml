@@ -37,7 +37,7 @@
 
         app:strokeWidth="1dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img"
+        android:src="@drawable/imgg"
 
 
         app:layout_constraintStart_toStartOf="parent"

@@ -13,11 +13,13 @@ public class signupdetailsmodelsastrologers {
     String callPrice;
     String videoPrice;
     String About;
+    String fcm;
+    String authid;
     public signupdetailsmodelsastrologers(){
 
     }
 
-    public signupdetailsmodelsastrologers(String email, String password, String username, String proImg, String profession, String languages, String experience, String rate, String chatPrice, String callPrice, String videoPrice, String about) {
+    public signupdetailsmodelsastrologers(String email, String password, String username, String proImg, String profession, String languages, String experience, String rate, String chatPrice, String callPrice, String videoPrice, String about, String fcm, String authid) {
         this.email = email;
         this.password = password;
         this.username = username;
@@ -30,6 +32,8 @@ public class signupdetailsmodelsastrologers {
         this.callPrice = callPrice;
         this.videoPrice = videoPrice;
         About = about;
+        this.fcm = fcm;
+        this.authid = authid;
     }
 
     public String getEmail() {
@@ -126,5 +130,21 @@ public class signupdetailsmodelsastrologers {
 
     public void setAbout(String about) {
         About = about;
+    }
+
+    public String getFcm() {
+        return fcm;
+    }
+
+    public void setFcm(String fcm) {
+        this.fcm = fcm;
+    }
+
+    public String getAuthid() {
+        return authid;
+    }
+
+    public void setAuthid(String authid) {
+        this.authid = authid;
     }
 }
