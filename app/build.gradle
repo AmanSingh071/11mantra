@@ -91,8 +91,3 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:23.0.8'
     implementation 'com.google.firebase:firebase-analytics:21.1.1'
 }
-dependencies {
-
-
-
-}

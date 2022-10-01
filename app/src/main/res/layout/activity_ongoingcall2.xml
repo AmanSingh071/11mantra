@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="100dp"
-            android:text="Outgoing Chat request from"
+            android:text="Outgoing Call request from"
             android:textColor="@color/white"
             android:textSize="20sp"
 
@@ -66,7 +66,7 @@
 
 
             android:layout_marginTop="180dp"
-            android:text="End Chat"
+            android:text="End Call"
             android:layout_gravity="center"
             android:id="@+id/disbtn"
             android:textColor="#FFFFFF"

@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center"
-            android:text="Reject Call Request"
+            android:text="Reject Chat Request"
             android:layout_marginTop="50dp"
             android:textSize="15dp"
             android:textColor="@color/red"
